@@ -86,3 +86,13 @@ nav>h3 {
     margin-top: 20px;
     width: 100%;
 }
+
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column-reverse;
+    }
+}
