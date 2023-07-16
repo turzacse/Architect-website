@@ -208,7 +208,7 @@ main {
         margin-bottom: 10px;
     }
     .fact-cart{
-        flex-direction: row;
+        flex-direction: column;
         margin: 0px;
         gap: 10px; 
         align-items: center;
