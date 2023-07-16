@@ -5,6 +5,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
@@ -82,17 +83,19 @@ nav>h3 {
     margin: 2rem 0;
 }
 
-.banner img{
+.banner img {
     border-radius: 8px;
     margin-top: 20px;
     width: 100%;
 }
+
 /* main section design  */
-main{
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
-.feature{
+
+.feature {
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -100,38 +103,73 @@ main{
     margin-right: 50px;
     margin-left: 200px;
 }
-.feature-section{
+
+.feature-section {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
-.feature-content{
+
+.feature-content {
     padding-left: 50px;
     padding-right: 50px;
 }
-.feature-content>h2{
+
+.feature-content>h2 {
     color: #FF900E;
     font-size: 45px;
     font-weight: 700;
     padding-bottom: 1rem;
 }
-.quick{
-    color:  #727272;
+
+.quick {
+    color: #727272;
     font-weight: 500;
 }
-.our{
+
+.our {
     color: #131313;
 }
-.feature-content>p{
+
+.feature-content>p {
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
-    padding-bottom: 3rem; 
+    padding-bottom: 3rem;
 }
 
+/* fact section  */
+.fact{
+    margin: 20px 140px;
+}
+.fact-content>h2{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.fact-content>p{
+    margin-right: 600px;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem; /* 162.5% */
+    margin-bottom: 80px;
+}
 
-
+.fact-cart{
+    display: flex;
+    margin: 20px 100px;
+    justify-content: space-between;  
+}
+.fact-cart .cart {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    background: #FFF;
+    text-align: center;
+    padding: 40px 30px;
+}
 
 
 
@@ -139,19 +177,40 @@ main{
 
 /* for mobile phone user  */
 @media screen and (max-width: 576px) {
-    header{
+    header {
         padding: 20px;
     }
-    nav, .feature{
+
+    nav,
+    .feature {
         flex-direction: column-reverse;
         gap: 10px;
     }
-    .feature{
+
+    .feature {
         margin: 10px;
     }
-    .feature-section{
+
+    .feature-section {
         grid-template-columns: 1fr;
         margin: 0px;
         padding: 0px;
-    } 
+    }
+    .fact{
+        margin: 10px 20px;
+    }
+    .fact-content>p{
+        margin-right: 0px;
+        color: #727272;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 2rem; /* 162.5% */
+        margin-bottom: 10px;
+    }
+    .fact-cart{
+        flex-direction: row;
+        margin: 0px;
+        gap: 10px; 
+        align-items: center;
+    }
 }
