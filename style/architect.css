@@ -176,7 +176,7 @@ main {
 
 
 /* for mobile phone user  */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 720px) {
     header {
         padding: 20px;
     }
