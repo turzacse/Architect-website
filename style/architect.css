@@ -1,0 +1,88 @@
+/* header section design  */
+* {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    width: 11.25rem;
+    height: 4rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.deco {
+    text-decoration: none;
+    color: #424242;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+    max-height: 1300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li {
+    justify-content: center;
+    list-style: none;
+    margin-right: 30px;
+    color: #424242;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav>h3 {
+    color: #131313;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+
+/* banner section design  */
+.banner {
+    margin-top: 100px;
+}
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-desc {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+.banner img{
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 100%;
+}
